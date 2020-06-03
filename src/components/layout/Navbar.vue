@@ -4,7 +4,7 @@
       <div class="container">
         <a href="" class="brand-logo">GeoNinjas!</a>
         <ul class="right">
-          <li><a href="">Signup</a></li>
+          <li><a href="/signup">Signup</a></li>
           <li><a href="">Login</a></li>
         </ul>
       </div>
