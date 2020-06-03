@@ -43,7 +43,7 @@ export default {
       if (this.alias && this.email && this.password) {
         this.slug = slugify(this.alias, {
           replacement: '-',
-          remove: /[$*_+~.()'"!\~:@]/g,
+          remove: /[$*_+~.()'"!\-:@]/g,
           lower: true
         })
         let ref = db.collection('users').doc(this.slug)
